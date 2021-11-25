@@ -1,0 +1,359 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clr{
+    clear:both;
+}
+
+.container {
+    width:1100px;
+    margin:auto;
+}
+.header{
+    background-image:url("../img/header.jpg");
+    height:100vh;
+    background-position: center center;
+   
+}
+.header .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0,.3);
+}
+.header .nav {
+    padding-top:30px;
+    
+}
+
+.header .nav .logo {
+    float:left;
+    width:40%;
+}
+
+.header .nav .logo img {
+    width:50%;
+}
+
+.header .nav .navbar{
+    float:left;
+    width:60%;
+}
+
+.header .nav .navbar ul {
+    list-style:none;
+    overflow:hidden;
+}
+
+.header .nav .navbar ul li {
+    float:left;
+    padding:0 20px;
+}
+
+.header .nav .navbar ul li a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size:24px;
+}
+.header .header-content{
+    text-align: center;
+    padding-top:100px;
+    color:#fff;
+}
+
+.header .header-content h1 {
+    font-size:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.header .header-content p {
+    font-size:20px;
+}
+.header .header-content .button{
+    margin-top: 20px;
+}
+.header .header-content .button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+}
+.header .header-content .button a.Learn{
+    background-color: #8e7754;
+    
+}
+.header .header-content .button a.Contact{
+    border:2px solid #fff;
+    margin-left: 10px;
+}
+.header .header-content .button a:hover{
+    background-color: white;
+    color: black;
+}
+
+.location{
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.location .location-contant{
+    float: left;
+    width: 40%;
+}
+.location .location-contant h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.location .location-contant p{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+.location .location-img{
+    float: left;
+    width: 40%;
+    margin:50px 0 50px 140px;
+}
+.location .location-img img{
+    width: 120%;
+}
+
+.Baking-items{
+   margin-top: 50px;
+   text-align: center; 
+}
+.Baking-items p{
+    color: rgb(80, 77, 77);
+}
+.Baking-items h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Baking-items .item{
+    width: 33.33%;
+    float: left;
+}
+.Baking-items .item img{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.Baking-items .item h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.Baking-items .item p{
+    line-height: 22px;
+}
+
+
+.Who-are-you{
+    margin-top: 50px;
+   
+    
+}
+.Who-are-you .who-img{
+    float: left;
+    width: 40%;
+    
+}
+.Who-are-you .who-img img{
+    width: 120%;
+    margin-top: 100px;
+}
+.Who-are-you .contant{
+    float: right;
+    width: 40%;
+    margin-top:120px;
+    
+}
+
+.Who-are-you .contant h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.Who-are-you .contant p{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+.Who-are-you .contant ul{
+    margin-top: 10px;
+    
+}
+
+.Who-are-you .contant ul li{
+    list-style: none;
+   float: left;
+ 
+
+}
+.Who-are-you .contant ul li span{
+    margin:20px 10px 0 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #8e7754;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.Who-are-you .contant span i{
+   color: #8e7754;
+  margin-top: 10px;
+}
+
+.Information{
+    margin-top: 1100px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.Information .Information-contant{
+    float: left;
+    width: 40%;
+}
+.Information .Information-contant h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.Information .Information-contant p{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+.Information .Information-map{
+    float: left;
+    width: 45%;
+    margin:50px 0 50px 140px;
+}
+.Information .Information-map iframe{
+    width: 90%;
+
+}
+.Information .Information-contant .Iicon ul{
+    padding-top: 20px; 
+      float: left;
+}
+.Information .Information-contant .Iicon ul li{
+    list-style: none;
+ 
+}
+.Information .Information-contant  .Iicon ul li span{
+    margin:20px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #8e7754;
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 10px;
+    background-color: #8e7754;
+}
+.Information .Information-contant .Iicon ul li span i{
+ margin-top: 7px;
+  color: white;
+  font-size: 20px;
+
+}
+.footer{
+    background-color: #403d38;
+    color: #969696;
+    overflow: hidden;
+   padding:40px 0 40px 0;
+}
+.footer .About{
+    width: 20%;
+    float: left;
+    line-height: 30px;
+
+}
+.footer .special{
+    width: 20%;
+    float: left;
+    line-height: 30px;
+    margin-left: 70px;
+    
+}
+.footer .special li{
+  list-style: ">"; 
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 5px;
+}
+.footer .opning{
+    width: 20%;
+    float: left;
+    line-height: 30px;
+    margin-left: 80px;
+}
+.footer .opning li{
+    list-style: ">";
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 5px;
+}
+.footer .contact{
+    width: 20%;
+    float: left;
+    line-height: 30px;
+    margin-left: 70px;
+}
+.footer .contact li{
+    list-style: none;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 5px;
+}
+.footer h2{
+    color: white;
+    padding-bottom: 15px;
+}
+.footer .contact ul li i{
+margin-right: 10px;
+}
+.footer .opning .finish{
+    border-bottom: 0;
+}
+.footer .special .finish{
+    border-bottom: 0;
+}
+
+.footer .contact .finish{
+    border-bottom: 0;
+}
+
+
+.end {
+    text-align: center;
+    background-color: #353330;
+    color: #797979;
+    padding: 100px 0 100px 0 ; 
+    line-height: 30px;
+}
+.end p{
+    margin-bottom: 20px;
+}
+.end a{
+   font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid #484540;
+    background-color: #484540;
+    color: #8c8a86;
+    padding: 10px;
+    margin-left: 7px;
+}
+.end a.facebook:hover{
+    background-color: #0275d8;
+    color: white;
+}
+.end a.google-plus:hover{
+    background-color: #e94918;
+    color: white;
+}
+.end a.linkedin:hover{
+    background-color: #4d70e4;
+    color: white;
+}
+.end a.twitter:hover{
+    background-color: #32b0eb;
+    color: white;
+}
